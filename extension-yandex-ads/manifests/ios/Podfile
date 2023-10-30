@@ -1,0 +1,3 @@
+platform :ios, '13.0'
+pod 'YandexMobileAds', '6.1.0'
+pod 'YandexMobileAdsInstream', '0.20.0'
