@@ -1,20 +1,22 @@
 #if defined(DM_PLATFORM_IOS)
 
+#import <YandexMobileAds/YMAMobileAds.h>
+
 #include "extension_private.h"
 #include "extension_callback_private.h"
 
 namespace dmYandexAds
 {
 
-void Initialize_Ext() {
-}
+    void Initialize_Ext() {
+    }
 
-void ActivateApp() {
-}
+    void ActivateApp() {
+    }
 
-void Initialize() {
-    
-}
+    void Initialize() {
+        [YMAMobileAds initializeSDK];
+    }
 
 }
 
